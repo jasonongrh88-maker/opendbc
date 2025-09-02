@@ -509,15 +509,18 @@ FW_VERSIONS = {
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-THR-A010\x00\x00',
       b'38897-THR-A020\x00\x00',
+      b'38897-T6A-J110\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-THR-A020\x00\x00',
       b'39990-THR-A030\x00\x00',
+      b'39990-T6A-J420\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-THR-A010\x00\x00',
       b'77959-THR-A110\x00\x00',
       b'77959-THR-X010\x00\x00',
+      b'\x0bC1JF04E2Z1H\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-THR-A020\x00\x00',
@@ -530,6 +533,7 @@ FW_VERSIONS = {
       b'36161-THR-C010\x00\x00',
       b'36161-THR-D110\x00\x00',
       b'36161-THR-K020\x00\x00',
+      b'\x0e  6ALK10018923\x00\x00',
     ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28101-5NZ-A110\x00\x00',
@@ -550,6 +554,7 @@ FW_VERSIONS = {
       b'28102-5MX-K610\x00\x00',
       b'28103-5NZ-A100\x00\x00',
       b'28103-5NZ-A300\x00\x00',
+      b'\x0b00012110016\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-THR-A040\x00\x00',
