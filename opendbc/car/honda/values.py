@@ -313,6 +313,12 @@ class CAR(Platforms):
     radar_dbc_dict('honda_odyssey_exl_2018_generated'),
     flags=HondaFlags.NIDEC_ALT_PCM_ACCEL | HondaFlags.HAS_ALL_DOOR_STATES,
   )
+  HONDA_ODYSSEY = HondaNidecPlatformConfig(
+    [HondaCarDocs("Honda Odyssey 2021")],
+    CarSpecs(mass=1836.0, wheelbase=2.700000047683716, steerRatio=13.0, centerToFrontRatio=1.350000023841858, tireStiffnessFactor=1.0),
+    radar_dbc_dict('honda_odyssey_exl_2021_generated'),
+    flags=HondaFlags.NIDEC_ALT_PCM_ACCEL | HondaFlags.HAS_ALL_DOOR_STATES,
+  )
   ACURA_RDX = HondaNidecPlatformConfig(
     [HondaCarDocs("Acura RDX 2016-18", "AcuraWatch Plus or Advance Package", min_steer_speed=12. * CV.MPH_TO_MS)],
     CarSpecs(mass=3925 * CV.LB_TO_KG, wheelbase=2.68, steerRatio=15.0, centerToFrontRatio=0.38, tireStiffnessFactor=0.444),  # as spec
