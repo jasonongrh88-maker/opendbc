@@ -313,7 +313,7 @@ class CAR(Platforms):
     radar_dbc_dict('honda_odyssey_exl_2018_generated'),
     flags=HondaFlags.NIDEC_ALT_PCM_ACCEL | HondaFlags.HAS_ALL_DOOR_STATES,
   )
-  HONDA_ODYSSEY SG = HondaNidecPlatformConfig(
+  HONDA_ODYSSEY_SG = HondaNidecPlatformConfig(
     [HondaCarDocs("Honda Odyssey 2021")],
     CarSpecs(mass=1836.0, wheelbase=2.700000047683716, steerRatio=13.0, centerToFrontRatio=1.350000023841858, tireStiffnessFactor=1.0),
     radar_dbc_dict('honda_odyssey_exl_2021_generated'),
