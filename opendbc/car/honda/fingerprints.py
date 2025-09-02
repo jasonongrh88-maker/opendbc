@@ -648,6 +648,29 @@ FW_VERSIONS = {
       b'57114-TGT-A530\x00\x00',
     ],
   },
+   CAR.HONDA_ODYSSEY_SG: {
+    (Ecu.transmission, 0x18DA1EF1, None): [
+      b'28101-5X9-U010\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x18DAB0F1, None): [
+      b'36161-T6A-U230\x00\x00',
+    ],
+    (Ecu.gateway, 0x18DAEFF1, None): [
+      b'38897-T6A-J110\x00\x00',
+    ],
+    (Ecu.programmedFuelInjection, 0x18DA10F1, None): [
+      b'37805-5X7-UC30\x00\x00',  
+    ],
+    (Ecu.srs, 0x18DA53F1, None): [
+      b'77959-T6A-J130\x00\x00',    
+    ],
+    (Ecu.combinationMeter, 0x18DA60F1, None): [
+      b'78109-T6A-UB10\x00\x00',   
+    ],
+    (Ecu.eps, 0x18DA30F1, None): [
+      b'39990-T6A-J420\x00\x00',
+    ],
+  },
   CAR.ACURA_RDX: {
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-TX4-A220\x00\x00',
